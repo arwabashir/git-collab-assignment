@@ -1,0 +1,2 @@
+Q: Both merges above are fast-forward merges. Explain
+A: These are fast-forward merges because they merge in a linear path rather than jumping from one branch to another. The branches are always caught up with each other and not divided.
