@@ -1,3 +1,5 @@
+Kiana Chang, Hana Hansen, Nikita Davis, Arwa Bashir, Niha Yarramsetty
+
 Q: Both merges above are fast-forward merges. Explain
 A: These are fast-forward merges because they merge in a linear path rather than jumping from one branch to another. The branches are always caught up with each other and not divided.
 
@@ -6,3 +8,5 @@ Student A changes title to "Conflict 1" on develop branch, commits change and pu
 
 c: Scenario 2
 Student A adds a paragraph on line 10 with the word "Hello" on develop branch, commits the change and pushes. Student B adds a paragraph on line 111 with the word "Hi" on conflict_branch, commits the change and pushes. Both students pull changes on respective branches. When Student A merges conflict_branch onto develop branch, there will be no conflict. 
+
+
