@@ -3,3 +3,6 @@ A: These are fast-forward merges because they merge in a linear path rather than
 
 b: Scenario 1
 Student A changes title to "Conflict 1" on develop branch, commits change and pushes. Then, student B changes title to "Conflict 2" on conflict_branch, and then commits change and pushes. Both students pull changes on respective branches. When student A tries to merge conflict_branch onto develop branch, they get a merge conflict, because of the conflicting titles on different branches. They will then need to accept the changes to resolve it.
+
+c: Scenario 2
+Student A adds a paragraph on line 10 with the word "Hello" on develop branch, commits the change and pushes. Student B adds a paragraph on line 111 with the word "Hi" on conflict_branch, commits the change and pushes. Both students pull changes on respective branches. When Student A merges conflict_branch onto develop branch, there will be no conflict. 
